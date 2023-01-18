@@ -42,7 +42,7 @@ width: 100%;
 min-height: 100vh;
 display: flex;
 align-items: center;
-background: url(images/back.png) no-repeat; 
+background: url(images/backround\ 2.jpg) no-repeat; 
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
@@ -129,6 +129,35 @@ transition: 0.7s ease;
     margin: 10px;
     
 }
-.More details{
-
+.about-us{
+    background-color: #f0f0f0;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transition: 0.7s ease;
 }
+
+
+.about-us:hover{
+    transform: scale(1.1);
+}
+.icon  {
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+  
+}
+.info h3{
+    color: #3a6cf4;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 10px;
+    
+}
+
